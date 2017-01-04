@@ -109,6 +109,21 @@
 		CEFBDAE81B1CE38D000E6F30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFBDAE71B1CE38D000E6F30 /* Images.xcassets */; };
 		CEFBDAEB1B1CE38D000E6F30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFBDAE91B1CE38D000E6F30 /* LaunchScreen.xib */; };
 		CEFBDB191B1DE220000E6F30 /* ColorCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBDB181B1DE220000E6F30 /* ColorCellView.swift */; };
+		F8DA305B1E1CD41E00F0D187 /* DynamicColor-watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F8DA30591E1CD41E00F0D187 /* DynamicColor-watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8DA305F1E1CD46F00F0D187 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D64AC1D381782005DEE4E /* Array.swift */; };
+		F8DA30601E1CD46F00F0D187 /* ContrastDisplayContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BD0801DEA01E500E11D77 /* ContrastDisplayContext.swift */; };
+		F8DA30611E1CD46F00F0D187 /* DynamicColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF85A231C84EA5B00DD1A49 /* DynamicColor.swift */; };
+		F8DA30621E1CD46F00F0D187 /* DynamicColor+Deriving.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF67861CA2D22E008DC3A2 /* DynamicColor+Deriving.swift */; };
+		F8DA30631E1CD46F00F0D187 /* DynamicColor+HSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E1F101D81A6D900D2AC35 /* DynamicColor+HSB.swift */; };
+		F8DA30641E1CD46F00F0D187 /* DynamicColor+HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF02EEC1D2984CC00D810B9 /* DynamicColor+HSL.swift */; };
+		F8DA30651E1CD46F00F0D187 /* DynamicColor+Lab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D64801D35230E005DEE4E /* DynamicColor+Lab.swift */; };
+		F8DA30661E1CD46F00F0D187 /* DynamicColor+Mixing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E1F0A1D819C2E00D2AC35 /* DynamicColor+Mixing.swift */; };
+		F8DA30671E1CD46F00F0D187 /* DynamicColor+RGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF678C1CA2D342008DC3A2 /* DynamicColor+RGBA.swift */; };
+		F8DA30681E1CD46F00F0D187 /* DynamicColor+XYZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8B86541D2991F000C5A670 /* DynamicColor+XYZ.swift */; };
+		F8DA30691E1CD46F00F0D187 /* DynamicColorSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E1F041D819AEC00D2AC35 /* DynamicColorSpace.swift */; };
+		F8DA306A1E1CD46F00F0D187 /* DynamicGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E1EFB1D818AB100D2AC35 /* DynamicGradient.swift */; };
+		F8DA306B1E1CD46F00F0D187 /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF85A241C84EA5B00DD1A49 /* HSL.swift */; };
+		F8DA306C1E1CD46F00F0D187 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D647A1D35074B005DEE4E /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -180,6 +195,9 @@
 		CEFBDAE71B1CE38D000E6F30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CEFBDAEA1B1CE38D000E6F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CEFBDB181B1DE220000E6F30 /* ColorCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCellView.swift; sourceTree = "<group>"; };
+		F8DA30571E1CD41E00F0D187 /* DynamicColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DA30591E1CD41E00F0D187 /* DynamicColor-watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DynamicColor-watchOS.h"; sourceTree = "<group>"; };
+		F8DA305A1E1CD41E00F0D187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +234,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECBCD981B2B6C5E0047E731 /* DynamicColor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DA30531E1CD41E00F0D187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +340,7 @@
 				CECBCD821B2B6C5E0047E731 /* DynamicColorFramework */,
 				CEE753CB1BF105E3001FF6ED /* OSXTests */,
 				CEA4D1331D95642900B12DAB /* iOSTests */,
+				F8DA30581E1CD41E00F0D187 /* DynamicColor-watchOS */,
 				CEFBDADC1B1CE38D000E6F30 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -327,6 +353,7 @@
 				CEEB28CF1BE27340001A74E8 /* tvOSExample.app */,
 				CEE753CA1BF105E3001FF6ED /* OSXTests.xctest */,
 				CEA4D1321D95642900B12DAB /* iOSTests.xctest */,
+				F8DA30571E1CD41E00F0D187 /* DynamicColor.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -355,6 +382,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F8DA30581E1CD41E00F0D187 /* DynamicColor-watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				F8DA30591E1CD41E00F0D187 /* DynamicColor-watchOS.h */,
+				F8DA305A1E1CD41E00F0D187 /* Info.plist */,
+			);
+			path = "DynamicColor-watchOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -363,6 +399,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECBCD861B2B6C5E0047E731 /* DynamicColor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DA30541E1CD41E00F0D187 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8DA305B1E1CD41E00F0D187 /* DynamicColor-watchOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +502,24 @@
 			productReference = CEFBDADB1B1CE38D000E6F30 /* DynamicColorExample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F8DA30561E1CD41E00F0D187 /* DynamicColor-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8DA305E1E1CD41E00F0D187 /* Build configuration list for PBXNativeTarget "DynamicColor-watchOS" */;
+			buildPhases = (
+				F8DA30521E1CD41E00F0D187 /* Sources */,
+				F8DA30531E1CD41E00F0D187 /* Frameworks */,
+				F8DA30541E1CD41E00F0D187 /* Headers */,
+				F8DA30551E1CD41E00F0D187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DynamicColor-watchOS";
+			productName = "DynamicColor-watchOS";
+			productReference = F8DA30571E1CD41E00F0D187 /* DynamicColor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -492,6 +554,10 @@
 						DevelopmentTeamName = "Work And Play";
 						LastSwiftMigration = 0800;
 					};
+					F8DA30561E1CD41E00F0D187 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
 				};
 			};
 			buildConfigurationList = CEFBDAD61B1CE38D000E6F30 /* Build configuration list for PBXProject "DynamicColorExample" */;
@@ -512,6 +578,7 @@
 				CEEB28CE1BE27340001A74E8 /* tvOSExample */,
 				CEA4D1311D95642900B12DAB /* iOSTests */,
 				CEE753C91BF105E3001FF6ED /* OSXTests */,
+				F8DA30561E1CD41E00F0D187 /* DynamicColor-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -554,6 +621,13 @@
 				CEFBDAE61B1CE38D000E6F30 /* Main.storyboard in Resources */,
 				CEFBDAEB1B1CE38D000E6F30 /* LaunchScreen.xib in Resources */,
 				CEFBDAE81B1CE38D000E6F30 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DA30551E1CD41E00F0D187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,6 +777,27 @@
 				CEFBDAE11B1CE38D000E6F30 /* AppDelegate.swift in Sources */,
 				CEF02EEE1D2984CD00D810B9 /* DynamicColor+HSL.swift in Sources */,
 				CEBE7E111D7DEBE700B27BAD /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DA30521E1CD41E00F0D187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8DA30601E1CD46F00F0D187 /* ContrastDisplayContext.swift in Sources */,
+				F8DA30681E1CD46F00F0D187 /* DynamicColor+XYZ.swift in Sources */,
+				F8DA30641E1CD46F00F0D187 /* DynamicColor+HSL.swift in Sources */,
+				F8DA306C1E1CD46F00F0D187 /* Utils.swift in Sources */,
+				F8DA306A1E1CD46F00F0D187 /* DynamicGradient.swift in Sources */,
+				F8DA30621E1CD46F00F0D187 /* DynamicColor+Deriving.swift in Sources */,
+				F8DA30631E1CD46F00F0D187 /* DynamicColor+HSB.swift in Sources */,
+				F8DA30691E1CD46F00F0D187 /* DynamicColorSpace.swift in Sources */,
+				F8DA30611E1CD46F00F0D187 /* DynamicColor.swift in Sources */,
+				F8DA306B1E1CD46F00F0D187 /* HSL.swift in Sources */,
+				F8DA30671E1CD46F00F0D187 /* DynamicColor+RGBA.swift in Sources */,
+				F8DA30651E1CD46F00F0D187 /* DynamicColor+Lab.swift in Sources */,
+				F8DA305F1E1CD46F00F0D187 /* Array.swift in Sources */,
+				F8DA30661E1CD46F00F0D187 /* DynamicColor+Mixing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1013,6 +1108,65 @@
 			};
 			name = Release;
 		};
+		F8DA305C1E1CD41E00F0D187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "DynamicColor-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yannickloriot.DynamicColor;
+				PRODUCT_NAME = DynamicColor;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		F8DA305D1E1CD41E00F0D187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "DynamicColor-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yannickloriot.DynamicColor;
+				PRODUCT_NAME = DynamicColor;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1069,6 +1223,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F8DA305E1E1CD41E00F0D187 /* Build configuration list for PBXNativeTarget "DynamicColor-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8DA305C1E1CD41E00F0D187 /* Debug */,
+				F8DA305D1E1CD41E00F0D187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
